@@ -28,13 +28,19 @@ poetry install
 
 ## Configuration
 
-Before running the project:
+## Configuration
 
-1. Add your `OPENAI_API_KEY` to the `.env` file
-2. Customize the agents in `src/customerresearcher/config/agents.yaml`
-3. Modify tasks in `src/customerresearcher/config/tasks.yaml`
-4. Adjust logic and tools in `src/customerresearcher/crew.py`
-5. Customize inputs in `src/customerresearcher/main.py`
+1. Add your keys
+    `OPENAI_API_KEY` to the `.env` file in the `customerresearcher` directory.
+    `OPENAI_ORGANIZATION_ID` to the `.env` file in the `customerresearcher` directory.
+    `SERPER_API_KEY` to the `.env` file in the `customerresearcher` directory.
+    `AGENTOPS_API_KEY` to the `.env` file in the `customerresearcher` directory.
+
+2. Customize the project:
+   - Modify `src/customerresearcher/config/agents.yaml` to define your agents
+   - Modify `src/customerresearcher/config/tasks.yaml` to define your tasks
+   - Adjust `src/customerresearcher/crew.py` to add your own logic, tools, and specific arguments
+   - Update `src/customerresearcher/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
 
