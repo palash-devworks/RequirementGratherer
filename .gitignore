@@ -1,0 +1,7 @@
+
+/venv
+customerresearcher/final_requirements.md
+customerresearcher/market_research_requirements.md
+customerresearcher/.env
+customerresearcher/__pycache__/
+customerresearcher/src/customerresearcher/__pycache__

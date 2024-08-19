@@ -1,0 +1,155 @@
+initial_consultation:
+  description: >
+    Conduct an in-depth interview with the user to understand their research needs,
+    goals, and expectations regarding {topic}. Ask probing questions to uncover
+    hidden requirements and potential areas of interest.
+  expected_output: >
+    A detailed summary of the user's research objectives, key areas of interest,
+    and any specific requirements or constraints for the {topic} research project.
+  agent: lead_researcher
+
+literature_review:
+  description: >
+    Perform a comprehensive review of existing literature, academic papers, and
+    industry reports related to {topic}. Focus on the most recent publications
+    and identify key trends, gaps in current research, and potential areas for
+    innovation.
+  expected_output: >
+    A synthesized report of the current state of research in {topic}, highlighting
+    major findings, emerging trends, and areas requiring further investigation.
+  agent: literature_reviewer
+
+data_collection_and_analysis:
+  description: >
+    Gather relevant data from various sources related to {topic}. This may include
+    public databases, APIs, web scraping (where ethically and legally permissible),
+    and other data repositories. Analyze the collected data using advanced statistical
+    and machine learning techniques to extract meaningful insights.
+  expected_output: >
+    A comprehensive dataset related to {topic} and a detailed analysis report
+    highlighting key patterns, correlations, and potential breakthrough insights.
+  agent: data_scientist
+
+expert_interviews:
+  description: >
+    Identify and conduct interviews with subject matter experts in {topic}. Prepare
+    a set of in-depth questions based on the initial user consultation and literature
+    review. Seek expert opinions on current challenges, future directions, and
+    potential innovations in the field.
+  expected_output: >
+    A summary of expert insights, including quotes, predictions, and recommendations
+    for further research in {topic}.
+  agent: domain_expert
+
+trend_analysis:
+  description: >
+    Analyze current and emerging trends in {topic}. Look for patterns in recent
+    publications, patents, startup activities, and industry movements. Identify
+    potential disruptive technologies or methodologies that could impact the field.
+  expected_output: >
+    A report on current trends, emerging technologies, and potential future
+    directions in {topic}, with a focus on their potential impact and relevance
+    to the user's research goals.
+  agent: innovation_scout
+
+ethical_assessment:
+  description: >
+    Evaluate the ethical implications of the proposed research in {topic}. Consider
+    potential societal impacts, privacy concerns, and any regulatory or compliance
+    issues that may arise. Provide recommendations for conducting the research in
+    an ethically responsible manner.
+  expected_output: >
+    An ethical assessment report outlining potential ethical concerns, mitigation
+    strategies, and recommendations for ensuring the research adheres to the highest
+    ethical standards.
+  agent: ethics_advisor
+
+methodology_design:
+  description: >
+    Based on the research objectives and collected information, design a robust
+    and innovative research methodology for investigating {topic}. Consider both
+    quantitative and qualitative approaches, and propose novel techniques where
+    appropriate.
+  expected_output: >
+    A detailed research methodology proposal, including data collection methods,
+    analysis techniques, and validation strategies tailored to the {topic} research
+    project.
+  agent: research_methodologist
+
+preliminary_findings_report:
+  description: >
+    Compile all the information gathered from previous tasks into a comprehensive
+    preliminary findings report. Synthesize the literature review, data analysis,
+    expert insights, and trend analysis into a coherent narrative.
+  expected_output: >
+    A detailed preliminary report on {topic}, including key findings, potential
+    research directions, and initial recommendations. The report should be
+    formatted in markdown without code blocks.
+  agent: reporting_analyst
+
+quality_assessment:
+  description: >
+    Critically evaluate the quality, relevance, and potential impact of the
+    preliminary findings report. Assess the strength of the evidence, the rigor
+    of the methodology, and the potential contributions to the field of {topic}.
+  expected_output: >
+    A thorough assessment report highlighting the strengths and weaknesses of
+    the research, suggestions for improvement, and an overall evaluation of the
+    project's potential impact in the field of {topic}.
+  agent: judge
+
+final_requirements_compilation:
+  description: >
+    Based on all previous tasks and the quality assessment, compile a comprehensive
+    set of research requirements for the {topic} project. This should incorporate
+    user feedback, expert insights, ethical considerations, and identified research
+    opportunities, with a focus on guiding future market research and tool evaluation.
+  expected_output: >
+    A detailed requirements.md document that outlines:
+    1. Core research objectives and questions for {topic}
+    2. Key methodologies and approaches identified as most promising
+    3. Data collection and analysis requirements
+    4. Ethical considerations and compliance needs
+    5. Potential challenges and areas requiring innovative solutions
+    6. Interdisciplinary aspects and collaboration requirements
+    7. Resource needs (e.g., computational, access to specific datasets)
+    8. Timeline and milestone expectations
+    9. Desired outcomes and potential impact measures
+    10. Any specific tools or technologies identified as potentially crucial
+    This document should serve as a comprehensive guide for the recommender
+    crew to conduct targeted market research and tool evaluation for {topic} research.
+  agent: lead_researcher
+
+market_research_requirements:
+  description: >
+    Based on the final research requirements, compile a specific set of
+    criteria for evaluating tools, technologies, and methodologies in the
+    {topic} field. This should focus on the practical aspects of implementing
+    the research project and guide the recommender crew in their market analysis.
+  expected_output: >
+    A market_research_requirements.md document that specifies:
+    1. Essential features and capabilities required in research tools for {topic}
+    2. Integration needs with existing research infrastructure
+    3. Scalability and performance expectations for data processing
+    4. Data security and privacy requirements specific to {topic}
+    5. User interface and collaboration features needed for the research team
+    6. Analytical and visualization capabilities required
+    7. Compliance with relevant research standards and regulations
+    8. Budget considerations and ROI expectations for research tools
+    9. Support and training requirements for the research team
+    10. Flexibility and customization needs for {topic}-specific workflows
+    This document will directly inform the recommender crew's evaluation criteria
+    for potential tools and technologies in the {topic} research field.
+  agent: lead_researcher
+
+web_research:
+  description: >
+    Conduct a comprehensive web search on {topic}, focusing on the latest
+    developments, emerging trends, and cutting-edge research. Gather information
+    from reputable sources such as academic publications, industry reports,
+    tech blogs, and relevant news articles.
+  expected_output: >
+    A detailed report summarizing the most recent and relevant web-based
+    information on {topic}, including key findings, emerging trends, and
+    links to important sources.
+  agent: web_researcher
