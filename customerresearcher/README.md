@@ -34,7 +34,6 @@ poetry install
    - `OPENAI_API_KEY` to the `.env` file in the `customerresearcher` directory.
    - `OPENAI_ORGANIZATION_ID` to the `.env` file in the `customerresearcher` directory.
    - `SERPER_API_KEY` to the `.env` file in the `customerresearcher` directory.
-   - `AGENTOPS_API_KEY` to the `.env` file in the `customerresearcher` directory.
 
 2. Customize the project:
    - Modify `src/customerresearcher/config/agents.yaml` to define your agents
